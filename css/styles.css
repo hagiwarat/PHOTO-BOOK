@@ -33,14 +33,23 @@ img {
   display: block;
 }
 
+/* メイン */
+.mainvisual {
+  margin-bottom: 60px;
+}
 
+/* INDEX */
+.index {
+  background-color: #fff;
+  height: 280px;
+  padding: 15px 0;
+}
 
-
-
-
-
-
-
+.index h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
 
 
 
