@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html {
+  background-color: #F4F9FF;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.outer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.page-header__title {
+  width: 160px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.page-header__title img {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
