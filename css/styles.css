@@ -137,4 +137,9 @@ img {
   color: #333;
 }
 
-
+.page-footer p {
+  font-size: 10px;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 15px;
+}
