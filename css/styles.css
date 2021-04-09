@@ -2,23 +2,25 @@
 
 html {
   background-color: #F4F9FF;
+  height: 100%;
 }
 
 body {
   margin: 0;
+  height: 100%;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .outer {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .inner {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -42,7 +44,7 @@ img {
 .index {
   box-sizing: border-box;
   background-color: #fff;
-  height: 285px;
+  height: 280px;
   padding: 30px 0;
   margin-bottom: 60px;
 }
@@ -85,9 +87,8 @@ img {
   display: flex;
 }
 
-.detail-content__Img img {
+.detail-content img {
   width: 270px;
-  height: 275px;
   margin-right: 60px;
 }
 
@@ -121,6 +122,7 @@ img {
 
 .detail-item dd {
   margin: 0;
+  width: 75%;
 }
 
 .detail-content__Ex p {
@@ -143,3 +145,33 @@ img {
   color: #333;
   margin-bottom: 15px;
 }
+
+/* レスポンシブ */
+@media screen and (max-width: 1024px) {
+  .mainvisual {
+    padding: 0 10px;
+  }
+
+  .inner {
+    padding: 0 40px;
+  }
+
+  .index {
+    height: auto;
+  }
+
+  .detail-content {
+    display: block;
+  }
+
+  .detail-content img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
